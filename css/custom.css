@@ -1,0 +1,183 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+.lebo{
+	position:absolute;
+	right:0;
+	bottom:0;
+	z-index:-1;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.beauty-on-call{
+	text-align: center;
+}
+
+.beauty-on-call p{
+	text-align: center;
+	color: #fff;
+	font-family: sans-serif;
+	margin-top: -15px;
+	cursor: pointer;
+}
+.beauty-on-call h1{
+	color: white;
+	text-align: center;
+	line-height: 85px;
+	font-weight: 900;
+	font-size: 68px;
+	font-family: "Dancing Script", cursive;
+	cursor: pointer;
+	transition: 0.5s;
+
+}
+.beauty-on-call h1:hover{
+	-webkit-text-stroke:2px #fff;
+	color:transparent;
+	
+}
+.overflow-hidden p{
+	color: white;
+}
+.new{
+	background: transparent;
+	color: white;
+	padding:12px 38px;
+	border:2px solid  #ffda6a;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.new a{
+	color: white;
+}
+.new a:hover{
+	color:#ffda6a ;
+}
+.new-div{
+	width: 80%;
+	align-items: center;
+	text-align: center;
+}
+.samantha{
+	display: flex;
+	align-items: center;
+	padding:px;
+	text-align: center;
+}
+.samantha img{
+	width: 500px;
+	padding: 10px;
+	margin-left: 140px;
+}
+@media(max-width:792px){
+	.beauty-on-call h1{
+		text-align: left;
+		font-size: 20px;
+		line-height: 25px;
+		margin-top: -40px;
+		
+	}.header-row a{
+		font-size: 25px;
+	}#header-row{
+		width: 10px;
+		background: transparent;
+	}
+	
+	.beauty-on-call h1{
+		text-align: center;
+	}
+
+	.overflow-hidden{
+		display: flex;
+		flex-direction: column;
+	}
+	#header
+	{
+		background: transparent;
+		height: 10px;
+	}
+	.content-wrap{
+		margin-top: -875px;
+	}
+	video{
+		margin-top: 150px;
+	
+	}
+	.col-12{
+		margin-top: 500px;
+	}
+	.conainer{
+		margin-top: 700px;
+	}
+	
+	#logo a{
+		font-size: 25px;
+	}
+	.new{
+		background: transparent;
+		color: white;
+		padding:6px;
+		border:2px solid  #ffda6a;
+		text-transform: uppercase;
+		font-weight: 100;
+		width: 120px;
+		text-align: center;
+	}
+	.overflow-hidden h3{
+		margin-top: 900px;
+	}
+	video{
+		margin-top: 150px;
+	}
+	.overflow-hidden{
+		display: flex;
+		flex-direction: column;
+	}
+	.samantha img{
+		width: 400px;
+		padding: 10px;
+		text-align: center;
+	
+	}
+	.samantha{
+		display: flex;
+		flex-direction: column;
+		align-items: left;
+		margin-left: -140px;
+	}
+	.new{
+		margin-top: 20px;
+	}
+	.lebo{
+		width: 100%;
+		align-items: center;
+		text-align: center;
+	
+	}
+	.new-div{
+		margin-top: 600px;
+	}
+}
+#logo a{
+	color:  #ffda6a;;
+}
+@media(min-aspect-ration: 16/9){
+	.lebo{
+		width: 100%;
+		height: auto;
+	}
+
+}
+@media(min-aspect-ration: 16/9){
+	.lebo{
+		width: auto;
+		height: 100%;
+	}
+
+}
+
+
